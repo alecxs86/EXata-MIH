@@ -1,0 +1,10 @@
+MIH_OPTIONS = -DADDON_MIH
+MIH_DIR = ../addons/mih/src
+MIH_SRCS = \
+$(MIH_DIR)/MIH_LINK_SAP.cpp \
+$(MIH_DIR)/mih_protocol.cpp \
+$(MIH_DIR)/mac_dot11-mih.cpp \
+$(MIH_DIR)/mac_dot16_mih.cpp \
+$(MIH_DIR)/umts_mih.cpp
+MIH_INCLUDES = \
+-I$(MIH_DIR)

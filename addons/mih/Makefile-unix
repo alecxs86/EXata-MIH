@@ -1,0 +1,5 @@
+include ../addons/mih/Makefile-common
+ADDON_OPTIONS	+= $(MIH_OPTIONS)
+ADDON_SRCS	+= $(MIH_SRCS)
+ADDON_INCLUDES	+= $(MIH_INCLUDES)
+ADDON_LIBRARIES	+=
